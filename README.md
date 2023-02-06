@@ -3,6 +3,7 @@
 Just a small example to help my friend access remote data in an automated fashion. Ended up being a decent example of a script
 
 mkdir CIC-000001
+
 mkdir CIC-000002
 mkdir EMT-000001
 mkdir EMT-000002
