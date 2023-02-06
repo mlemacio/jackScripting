@@ -1,7 +1,8 @@
 # Jack Scripting
 
-Just a small example to help my friend access remote data in an automated fashion. Ended up being a decent example of a script. It can either execute all the commands or generate the list of commands that need to be run
+Just a small example to help my friend access remote data in an automated fashion. Ended up being a decent example of a script. It can either execute all the commands or generate the list of commands that need to be run.
 
+EXAMPLE:
 mkdir CIC-000001 <br />
 mkdir CIC-000002
 
