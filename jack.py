@@ -17,7 +17,7 @@ ip_list = []
 for idx, source in enumerate(TEST_NAMES):
     # Grab each tests specific number of instances
     num_sources_with_name = TEST_TOTAL[idx]
-    
+
     # For each instance of each test, add it to ip list
     for i in range(1, num_sources_with_name + 1):
         number_string = "%06d" % (i,)
@@ -31,6 +31,7 @@ for ip in ip_list:
     print(make_directory_string)
     '''os.system(make_directory_string)'''
 
+for ip in ip_list:
     # Create local file path, consisting of directory name and todays date
     LOCAL_FILE_PATH = ip + "/" + TODAY_STRING + ".txt"
 
