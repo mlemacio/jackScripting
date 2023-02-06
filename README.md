@@ -2,7 +2,6 @@
 
 Just a small example to help my friend access remote data in an automated fashion. Ended up being a decent example of a script
 
-'''
 mkdir CIC-000001
 mkdir CIC-000002
 mkdir EMT-000001
@@ -55,4 +54,3 @@ sftp SLT-000004:/home/pi/Desktop/cambridge-ic-spi/logs/cic-data.txt SLT-000004/2
 sftp SLT-000005:/home/pi/Desktop/cambridge-ic-spi/logs/cic-data.txt SLT-000005/2023-02-06.txt
 sftp SLT-000006:/home/pi/Desktop/cambridge-ic-spi/logs/cic-data.txt SLT-000006/2023-02-06.txt
 sftp SLT-000007:/home/pi/Desktop/cambridge-ic-spi/logs/cic-data.txt SLT-000007/2023-02-06.txt
-'''
