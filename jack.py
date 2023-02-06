@@ -31,6 +31,8 @@ for ip in ip_list:
     print(make_directory_string)
     '''os.system(make_directory_string)'''
 
+print()
+
 for ip in ip_list:
     # Create local file path, consisting of directory name and todays date
     LOCAL_FILE_PATH = ip + "/" + TODAY_STRING + ".txt"
